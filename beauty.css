@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+Body {
+    
+    Margin: 0 auto;
+    Padding: 20px;
+    background-image: url(mar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+    
+    
+
+}
+
+
+h1, h2 {
+    Text-align: center;
+    Margin-bottom: 20px;
+    
+}
+
+P {
+    Text-align: center;
+    Margin-bottom: 30px;
+}
+
+
+Label {
+    
+    Margin-bottom: 9px;
+}
+
+Textarea {
+    Border: 1px solid #ccc;
+    Border-radius: 9px;
+    height: 50px;
+}
+
+Select {
+    Margin-right: 10px;
+    border-radius: 9px;
+}
+
+Button {
+    Background-color: #007bff;
+    Color: #fff;
+    Border: none;
+    Padding: 10px 20px;
+    Border-radius: 5px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background-color: #0062cc;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.5s ease;
+}
+input{
+    border-radius: 6px;
+    border-color: beige;
+}
+
+ main{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 90vh;
+}
+
+
